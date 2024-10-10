@@ -18,7 +18,7 @@ pipeline{
                 sh 'mvn test'
             }
         }
-        stage('qa with akshat'){
+        stage('qa with Piyush'){
             steps{
                 sh 'mvn checkstyle:checkstyle'
             }
